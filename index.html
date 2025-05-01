@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>منصة رؤية - منظمة R.D.F</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background-color: #0f0f0f;
+      font-family: 'Cairo', sans-serif;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(to left, #0056b3, #003366);
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 16px;
+      color: #e0e0e0;
+    }
+    nav {
+      background: #1a1a1a;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+      border-bottom: 2px solid #0056b3;
+    }
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    nav a:hover {
+      color: #00aaff;
+    }
+    section#news {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #1c1c1c;
+      border-radius: 12px;
+    }
+    section#news h2 {
+      text-align: center;
+      font-size: 30px;
+      color: #00aaff;
+      margin-bottom: 40px;
+    }
+    .news-container {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+    .news-card {
+      background: #2a2a2a;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    }
+    .news-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .news-card h3 {
+      margin: 0 0 10px;
+      font-size: 22px;
+      color: #fff;
+    }
+    .news-card p {
+      font-size: 15px;
+      color: #ccc;
+      margin: 5px 0;
+    }
+    .news-date {
+      font-size: 14px;
+      color: #00aaff;
+    }
+    .news-date strong {
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>منصة رؤية</h1>
+    <p>تابعة لمنظمة R.D.F</p>
+  </header>
+  <nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="#">عن المنصة</a>
+    <a href="thinking.html">لحظة تفكير</a>
+    <a href="#">تواصل معنا</a>
+  </nav>
+  <section id="news">
+    <h2>الأخبار المهمة</h2>
+    <div class="news-container">
+      <div class="news-card">
+        <img src="https://i.postimg.cc/CxBBNrT3/IMG-20250429-WA0001.jpg" alt="خبر">
+        <h3>إطلاق منصة التدريب الرقمي</h3>
+        <p>تم اليوم تدشين المنصة الرقمية الجديدة الخاصة بالمنظمة، والتي تهدف إلى تقديم دورات تدريبية في ريادة الأعمال والتنمية المجتمعية.</p>
+        <p class="news-date">اليوم - <strong>30 أبريل 2025</strong></p>
+      </div>
+      <div class="news-card">
+        <img src="https://via.placeholder.com/800x400" alt="خبر">
+        <h3>اجتماع الشركاء المحليين</h3>
+        <p>عُقد أمس اجتماع موسّع مع شركاء من المجتمع المدني لدراسة توسيع مشاريع المنظمة في المناطق النائية.</p>
+        <p class="news-date">أمس - <strong>29 أبريل 2025</strong></p>
+      </div>
+      <div class="news-card">
+        <img src="https://via.placeholder.com/800x400" alt="خبر">
+        <h3>بدء المرحلة الثانية من المبادرة</h3>
+        <p>بدأت المنظمة المرحلة الثانية من مبادرة التمكين الاقتصادي بالتعاون مع شركاء دوليين.</p>
+        <p class="news-date">منذ 3 أيام - <strong>27 أبريل 2025</strong></p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
